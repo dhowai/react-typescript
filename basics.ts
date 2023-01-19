@@ -43,3 +43,12 @@ let course: string | number = 'React'
 
 course = 1234
 
+// Functions and types
+
+function add(a: number, b: number) {
+    return a + b;
+}
+
+function printOpt(value: any) {
+    console.log(value)
+}
