@@ -52,3 +52,17 @@ function add(a: number, b: number) {
 function printOpt(value: any) {
     console.log(value)
 }
+
+// Generics
+
+function insertAtBeg<T>(array: T[], value: T) {
+    const newArray = [value, ...array]
+    return newArray
+}
+
+const demoArray = [1, 2, 3]
+
+const updatedArray = insertAtBeg(demoArray, -1) // [-1, 1, 2, 3]
+const stringArray = insertAtBeg(['a', 'b', 'c'], 'd')
+
+// updatedArray[0].split('')
