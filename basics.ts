@@ -40,6 +40,6 @@ let people: {
 
 // Type inference
 
-let course = 'React'
+let course: string | number = 'React'
 
-// course = 1234
+course = 1234
