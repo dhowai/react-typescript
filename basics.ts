@@ -13,3 +13,27 @@ let isInstructor : boolean
 
 isInstructor = true
 
+// More complex
+
+let hobbies: string[]
+
+hobbies = ['sport', 'cooking']
+
+let person: {
+    name: string,
+    age: number
+};
+
+person = {
+    name: 'D',
+    age: 28
+}
+
+// person = {
+//     isEmployee: true
+// }
+
+let people: {
+    name: string,
+    age: number,
+}[]
